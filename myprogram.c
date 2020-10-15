@@ -5,6 +5,9 @@ int sum_of_1_to_n(int n)
 
 	//TODO: sum all numbers from 1 to n
 
+	for (int i=0;i<=n;i++){
+	sum += i;
+}
 	return sum;
 }
 
