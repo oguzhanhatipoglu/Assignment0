@@ -44,13 +44,13 @@ int reversed_number(int number)
     int remainder;
     while(number!=0)
     {
-       remainder=n%10;
+       remainder=number%10;
        reverse=reverse*10+remainder;
        number/=10;
     }
 	//TODO: if input is 12345, return 54321
 
-	return reversed;
+	return reverse;
 }
 
 int is_prime(int number)
